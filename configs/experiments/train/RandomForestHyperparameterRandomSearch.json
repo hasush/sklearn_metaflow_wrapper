@@ -1,0 +1,54 @@
+{
+    "experiment_name": "RandomForestRandomSearch",
+    "seed": 0,
+    "get_data_method": "default",
+    "val_size": 0.1,
+    "test_size": 0.1,
+    "clf_type": "RandomForestClassifier",
+    "default_hyperparameters": {
+        "n_estimators": 100,
+        "criterion": "gini",
+        "max_depth": null,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "min_weight_fraction_leaf": 0.0,
+        "max_features": "auto",
+        "max_leaf_nodes": null,
+        "min_impurity_decrease": 0.0,
+        "bootstrap": true,
+        "oob_score": false,
+        "n_jobs": null,
+        "random_state": null,
+        "verbose": 0,
+        "warm_start": false,
+        "class_weight": null,
+        "ccp_alpha": 0.0,
+        "max_samples": null
+    },
+    "hyperparameter_search_type": "random",
+    "hyperparameter_num_searches": 64,
+    "permutations": {
+        "data_transform_method": [
+            0
+        ],
+        "criterion": [
+            "gini",
+            "entropy"
+        ],
+        "max_depth": [
+            2,
+            17
+        ],
+        "min_samples_split": [
+            2,
+            17
+        ],
+        "min_samples_leaf": [
+            1,
+            17
+        ],
+        "verbose": [
+            true
+        ]
+    }
+}

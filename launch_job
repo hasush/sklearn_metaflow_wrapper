@@ -1,0 +1,6 @@
+#!/bin/sh
+python3 /path/to/sklearn_metaflow_wrapper/SklearnClassifierFlow.py run --config_overrides="$(cat /path/to/sklearn_metaflow_wrapper/configs/experiments/train/RandomForestDefaultHyperparameters.json)" --tag "RandomForest_Default"
+# python3 /path/to/sklearn_metaflow_wrapper/SklearnClassifierFlow.py run --config_overrides="$(cat /path/to/sklearn_metaflow_wrapper/configs/experiments/train/RandomForesHyperparameterRandomSearch.json)" --tag "RandomForest_Random_Search"
+# python3 /path/to/sklearn_metaflow_wrapper/SklearnClassifierFlow.py run --config_overrides="$(cat /path/to/sklearn_metaflow_wrapper/configs/experiments/train/XGBDefaultHyperparameters.json)" --tag "XGB_Default"
+# python3 /path/to/sklearn_metaflow_wrapper/SklearnClassifierFlow.py run --config_overrides="$(cat /path/to/sklearn_metaflow_wrapper/configs/experiments/train/XGBHyperparameterRandomSearch.json)" --tag "XGB_Random_Search"
+# python3 /path/to/sklearn_metaflow_wrapper/SklearnClassifierFlow.py run --config_overrides="$(cat /path/to/sklearn_metaflow_wrapper/configs/experiments/train/XGBHyperparameterGridSearch.json)" --tag "XGB_Grid_Search"
